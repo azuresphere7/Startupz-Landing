@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 export default function Navbar() {
   return (
-    <div className="container flex justify-between items-center absolute top-0 left-1/2 -translate-x-1/2 w-full p-6">
+    <div className="container flex justify-between items-center absolute top-0 left-1/2 -translate-x-1/2 w-full p-6 z-10">
       <Logo />
 
       <div className="flex flex-col md:flex-row justify-center items-center text-lg">
